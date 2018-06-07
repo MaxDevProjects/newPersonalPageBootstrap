@@ -1,17 +1,12 @@
-  @font-face{
-      font-family: 'Roboto', sans-serif;
-      font-family: 'Space Mono', monospace;
-    }
+
 
     html{
         font-size: 1rem;
-        -webkit-text-size-adjust: 100%;
-        -ms-text-size-adjust: 100%;
     }
     
 
     h1{
-        font-size: 5rem;
+        font-size: 4.3rem;
     }
 
     h3, h4{
@@ -60,7 +55,7 @@
       #photo{
         display: flex;
         background-color: rgba(255, 255, 255, 0.678);
-        max-width: 300px;
+        max-width: 250px;
         margin: auto;
         margin-top: 15%;  
         -webkit-animation: opac 4s infinite; /* Safari 4+ */
@@ -135,8 +130,8 @@
         background-color: rgba(0, 105, 93, 0.507);
         background: linear-gradient(to left right, rgba(0, 105, 93, 0.521) , rgba(128, 203, 195, 0.514)) no-repeat left left fixed;
         height: 1px;
-        width: 40%;
-        margin: 0;
+        width: 20%;
+        margin: auto;
       }
 
       .my-4{
@@ -144,7 +139,8 @@
           background-color: rgba(0, 105, 93, 0.507);
         background: linear-gradient(to left  right, rgba(0, 105, 93, 0.521) , rgba(128, 203, 195, 0.514)) no-repeat center center fixed;
           height: 1px;
-          width: 20%;
+          width: 30%;
+          margin: 0;
       }
 
       .button-bottom{
@@ -320,10 +316,15 @@
             margin: 0;
             padding: 0;
         }
-        hr.my-3{
-            margin: auto;
-        }
+    .my-3{
+        width: 30%;
+        margin: auto;
+      }
 
+      .my-4{
+          width: 40%;
+          margin: auto;
+      }
         #pres{
             text-align: center;
         }
@@ -335,6 +336,10 @@
         .btn-reso i{
             display: inline-flex;
             font-size: 1.5rem;
+        }
+
+        #game, #web{
+            width: 50%;
         }
 
     }
