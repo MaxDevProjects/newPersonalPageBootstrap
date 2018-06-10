@@ -357,10 +357,15 @@
             text-align: center;
         } */
 
-        #titres-pres h4, #titres-pres hr{
+        #titres-pres>h4, #titres-pres>hr, #titres-pres>p{
             margin: auto;
             text-align: center;
-            font-size: 8vw;
+        font-size: 8vw;
+            
+        }
+
+        #titres-pres>p{
+        font-size: 6vw;
         }
         
         .my-3{
