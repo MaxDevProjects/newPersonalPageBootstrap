@@ -18,6 +18,9 @@
         font-family: 'Garamond', arial;
         font-weight: 500;
     }
+    #speciality{
+        color: #fff;
+    }
 
     p{
         font-size: 1.4rem;
@@ -48,6 +51,17 @@
         padding-bottom: 10%;
       }
       
+#speciality {
+  border-right: .05em solid;
+  animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
+}
+
       @keyframes opac{
         0%{background-color: rgba(255, 255 , 255, 0.2)}
         50%{background-color: rgba(255, 255 , 255, 0.8)}               
