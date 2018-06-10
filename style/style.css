@@ -14,17 +14,19 @@
     }
 
     .activity{
-        font-size: 1.8rem;
-        font-family: 'Space Mono', monospace;
+        font-size: 2.5rem;
+        font-family: 'Garamond', arial;
+        font-weight: 500;
     }
 
     p{
-        font-size: 0.9rem;
-        font-family: 'Space Mono', monospace;
+        font-size: 1.4rem;
+        font-family: 'Garamond', arial;
     }
 
-    h1, h4, h3 .nav-link, .btn, label{
+    h1, h4, h3, .btn, label{
         font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
     }
       /* Styles de base */
       body {
@@ -78,9 +80,9 @@
         .nav-link{
             font-size: 1.2em;
             color: #263238;
-            font-family: 'Roboto';
-            font-weight: 500;
             width: 100%;
+            font-family: 'Garamond', arial;
+            font-weight: 900;
         }
 
         @keyframes lining{
