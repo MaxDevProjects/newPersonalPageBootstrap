@@ -6,24 +6,25 @@
     
 
     h1{
-        font-size: 4.3rem;
+        font-size: 3.5rem;
     }
 
     h3, h4{
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     .activity{
-        font-size: 2.5rem;
+        font-size: 2rem;
         font-family: 'Garamond', arial;
         font-weight: 500;
     }
     #speciality{
         color: #fff;
+        font-size: 2rem;
     }
 
     p{
-        font-size: 1.4rem;
+        font-size: 1.1rem;
         font-family: 'Garamond', arial;
     }
 
@@ -71,7 +72,7 @@
       #photo{
         display: flex;
         background-color: rgba(255, 255, 255, 0.678);
-        max-width: 250px;
+        max-width: 150px;
         margin: auto;
         margin-top: 15%;  
         -webkit-animation: opac 4s infinite; /* Safari 4+ */
@@ -92,7 +93,7 @@
       
         
         .nav-link{
-            font-size: 1.2em;
+            font-size: 1em;
             color: #263238;
             width: 100%;
             font-family: 'Garamond', arial;
@@ -109,7 +110,7 @@
                 }
 
         .nav-link:hover{
-            font-size: 1.2em;
+            font-size: 1em;
             color: rgb(48, 47, 47);
             text-shadow: 2px 2px 6px #a5a5a5 ;
             border-bottom: 3px solid #00695C;
@@ -197,7 +198,7 @@
     }
             
     .modal-header h3{
-        font-size: 3vw;
+        font-size: 2.5vw;
     }
 
     #skills{
