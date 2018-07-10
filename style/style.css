@@ -190,6 +190,11 @@
         padding: 50px;
     }
 
+    .images{
+        min-height: 273px;
+        max-width: 100%;
+    }
+
         
     .jumbotron{
     /* box-shadow: 0 0 10px rgba(0, 43, 38, 0.514); */
